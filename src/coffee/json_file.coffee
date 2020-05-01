@@ -28,8 +28,8 @@ class JSON_File
     json = JSON.stringify(obj, null, 2)
     fs.writeFileSync(fname, json)
 
-  apply_shadow: (obj) =>
-    @obj = deep.shade(obj)
+  apply_shadow: (shadow_obj) =>
+    @obj = deep.shade(@obj, shadow_obj)
 
   apply_shadow_file: (fname) =>
     obj = @load_json(fname)
