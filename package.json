@@ -1,18 +1,18 @@
 {
   "name": "deep",
   "version": "1.0.0",
-  "branch": "master",
+  "branch": "stable",
   "description": "Deep copy and shade of Javascript objects.",
   "main": "index.js",
   "scripts": {
     "clean": "bin/clean",
-    "install": "echo package_root=\\\"`npm prefix`\\\" > bin/buildrc",
+    "install": "bin/install && bin/build",
     "build": "bin/build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alcarruth/deep.git#master"
+    "url": "https://github.com/alcarruth/deep.git#stable"
   },
   "keywords": [
     "javascript",
@@ -22,8 +22,7 @@
   ],
   "author": "Al Carruth",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "coffeescript": "^2.4.1"
-  },
-  "devDependencies": {}
+  }
 }
