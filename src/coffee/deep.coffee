@@ -1,4 +1,4 @@
-Boolean#!/usr/bin/env coffee
+#!/usr/bin/env coffee
 #
 
 
@@ -82,8 +82,6 @@ shade = (x, y) ->
   return copy(y)
 
 
-    
-exports.type = type
 exports.copy = copy
 exports.shade = shade
 
