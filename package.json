@@ -1,7 +1,7 @@
 {
   "name": "deep",
   "version": "1.0.0",
-  "branch": "stable",
+  "branch": "develop",
   "description": "Deep copy and shade of Javascript objects.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alcarruth/deep.git#stable"
+    "url": "https://github.com/alcarruth/deep.git#develop"
   },
   "keywords": [
     "javascript",
